@@ -92,7 +92,7 @@ html{
 #hero{
     background-image: url(./AdobeStock_301264967.jpeg);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     position: relative;
     z-index: 1;
     background-attachment: fixed;
