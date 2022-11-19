@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+#header .header {
+    min-height: 5vh;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5%;
+    max-width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9)
+}
+
+#header .nav-list ul{
+    list-style: none;
+    position: initial;
+    display: inline-block;
+    height: auto;
+}
+#header .nav-list li{
+    justify-content: space-between;
+    padding: 20px;
+    display: inline-block;
+}
+
+#header .nav-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s ease;
+    background-color: color;
+    border-radius: 20px;
+    padding: 8px 8px;
+    font-size: 1rem;
+}
+
+#header .name h1{
+    color: #D4FFF5;
+    font-size: 1.2rem;
+}
+
+#header .nav-list li a:hover {
+    color: #3C3F58;
+    background-color: #3BBA9C;
+    border-radius: 20px;
+}
+
+
+
+
+#hero{
+    background-image: url(./AdobeStock_301264967.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#hero .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: flex-start;
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+}
+
+#hero .container span {
+    color: #3BBA9C
+}
+#hero .cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #3BBA9C;
+    background-color: transparent;
+    border: 4px solid #3BBA9C;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 40px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    border-radius: 35px;
+}
+
+#hero .cta:hover{
+    color: #2E3047;
+    background-color: #3BBA9C;
+    border-radius: 35px;
+}
+
+
+/* Projects Section */
+
+#projects{
+    background-image: url(./AdobeStock_281626109.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+#projects .projects{
+    flex-direction: column;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 100px, 0;
+}
+
+#projects .section-title {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #2E3047;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#projects .projects-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#projects .projects-item-tri {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 60px;
+    background: rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    margin: 20px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#projects .projects-item-web {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 60px;
+    background: rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    margin: 20px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+ 
+#projects .projects-item-epi {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 60px;
+    background: rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    margin: 20px 5%;
+    margin-bottom: 10%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#projects .projects p {
+    color: black;
+    z-index: 2;
+    font-size: 1.2rem;
+}
+
+#projects .projects h2 {
+    color: 2E3047;
+    padding: 1.5%;
+    font-size: 2.3rem;
+    z-index: 2;
+}
+#projects .projects-top p {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    color: black;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+#about {
+    background-image: url(AdobeStock_485889576.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: -1;
+    background-attachment:  fixed;
+    background-repeat: no-repeat;
+}
+
+#about::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#about .about {
+    flex-direction: column;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px, 0;
+}
+
+#about .about-title {
+    font-size: 4rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin-top: -5%;
+    color: #3BBA9C;
+}
+
+#about .about-title span {
+    color: #83889F;
+}
+
+#about .about-content1 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: .08rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+#contact{
+    background-image: url(AdobeStock_322755810.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+#contact .contact {
+    flex-direction: column;
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    padding: 20px, 0;
+}
+
+#contact .contact-title {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#contact .contact-content {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    letter-spacing: .08rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contact .social-media {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    letter-spacing: .08rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20%;
+}
