@@ -99,7 +99,14 @@ html{
     background-repeat: no-repeat;
     max-width: 100%;
     height: auto;
+
+        @media screen (min-width: 768px) {
+            background-size: relative;
+            background-position: top center;
+            position: relative;
+        }
 }
+
 #hero::after{
     content: '';
     position: absolute;
@@ -356,6 +363,7 @@ html{
     letter-spacing: .08rem;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #contact .contact-container {
