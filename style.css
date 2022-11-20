@@ -148,7 +148,6 @@ html{
     letter-spacing: .1rem;
     margin-top: 40px;
     transition: .3s ease;
-    transition-property: background-color, color;
     border-radius: 35px;
 }
 
