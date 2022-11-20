@@ -104,6 +104,7 @@ html{
             background-size: contain;
             background-position: top center;
             position: relative;
+            max-width: 100%
         }
 }
 
