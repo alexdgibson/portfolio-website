@@ -96,16 +96,9 @@ html{
     position: relative;
     z-index: 1;
     background-attachment: fixed;
-    max-width: 100%;
+    min-width: 100%;
     background-repeat: no-repeat;
     height: auto;
-
-        @media screen (min-width: 768px) {
-            background-size: contain;
-            background-position: top center;
-            position: relative;
-            max-width: 100%
-        }
 }
 
 #hero::after{
@@ -119,6 +112,7 @@ html{
     opacity: 0.4;
     z-index: -1;
 }
+
 
 #hero .hero {
     max-width: 1200px;
