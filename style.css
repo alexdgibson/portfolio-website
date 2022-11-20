@@ -91,12 +91,11 @@ html{
 
 #hero{
     background-image: url(./AdobeStock_301264967.jpeg);
-    background-size: cover;
+    background-size: 100% auto;
     background-position: top center;
     position: relative;
     z-index: 1;
     background-attachment: fixed;
-    min-width: 100%;
     background-repeat: no-repeat;
     height: auto;
 }
