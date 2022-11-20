@@ -13,6 +13,7 @@ a {
 
 html{
     scroll-behavior: smooth;
+    height: -webkit-fill-available;
 }
 
 .container {
@@ -91,7 +92,8 @@ html{
 
 #hero{
     background-image: url(./AdobeStock_301264967.jpeg);
-    background-size: 100% auto;
+    background-size: cover;
+    min-width: fit-content;
     background-position: top center;
     position: relative;
     z-index: 1;
