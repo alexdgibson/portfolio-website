@@ -333,7 +333,7 @@ html{
 #contact .contact {
     flex-direction: column;
     text-align: center;
-    max-width: 60%;
+    max-width: 850px;
     margin: auto;
     padding: 20px, 0;
 }
@@ -345,7 +345,7 @@ html{
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 80px;
 }
 
 #contact .contact-content {
@@ -355,11 +355,11 @@ html{
     margin-bottom: 10px;
     letter-spacing: .08rem;
     text-align: center;
-    margin-top: px;
+    margin-top: 10px;
 }
 
 #contact .contact-container {
-    max-width: 60%;
+    max-width: 750px;
     margin: 0 auto;
 }
 
