@@ -48,7 +48,7 @@ html{
     padding-left: 10%;
     padding-right: 10%;
     position: fixed;
-    background: rgba(0, 0, 0, 0.9)
+    background: rgba(0, 0, 0, 1)
 }
 
 #header .nav-list ul{
@@ -92,16 +92,16 @@ html{
 #hero{
     background-image: url(./AdobeStock_301264967.jpeg);
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     position: relative;
     z-index: 1;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     max-width: 100%;
+    background-repeat: no-repeat;
     height: auto;
 
         @media screen (min-width: 768px) {
-            background-size: relative;
+            background-size: contain;
             background-position: top center;
             position: relative;
         }
