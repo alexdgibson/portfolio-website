@@ -83,17 +83,18 @@ html{
 
 #header .nav-list li a:hover {
     color: #3C3F58;
-    background-color: #3BBA9C;
+    background-color: #00CCFA;
     border-radius: 20px;
 }
 
 
 
 
-#hero{
-    background-image: url(./assets/AdobeStock_301264967.jpeg);
+#hero {
+    background-image: url(./assets/_DSC0889-4.jpg);
     background-size: cover;
-    min-width: fit-content;
+    width: 100%;
+    min-width: 100%;
     background-position: top center;
     position: relative;
     z-index: 1;
@@ -110,7 +111,7 @@ html{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
 }
 
@@ -130,25 +131,28 @@ html{
 }
 
 #hero .container span {
-    color: #3BBA9C
+    color: #00CCFA;
+    margin-left: 850px;
+
 }
 #hero .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: #3BBA9C;
+    color: #00CCFA;
     background-color: transparent;
-    border: 4px solid #3BBA9C;
+    border: 4px solid #00CCFA;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin-top: 40px;
+    margin-top: 10px;
     transition: .3s ease;
     border-radius: 35px;
+    margin-left: 850px;
 }
 
 #hero .cta:hover{
-    color: #2E3047;
-    background-color: #3BBA9C;
+    color: #00CCFA;
+    background-color: #00CCFA;
     border-radius: 35px;
 }
 
@@ -165,7 +169,7 @@ html{
 #projects .projects{
     flex-direction: column;
     text-align: center;
-    max-width: 850px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 0.1%;
 }
@@ -173,12 +177,12 @@ html{
 #projects .section-title {
     font-size: 4rem;
     font-weight: 400;
-    color: #2E3047;
-    margin-bottom: 20px;
+    color: #000000;
+    margin-bottom: 0px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #projects .projects-bottom {
